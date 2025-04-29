@@ -412,3 +412,93 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+@media screen and (max-width: 768px) {
+
+  body {
+    padding: 0.5rem;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  header {
+    padding: 0.5rem;
+  }
+
+  .nav_list {
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .nav__item {
+    margin: 0.5rem 0;
+  }
+
+  #intro-section {
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 1rem;
+  }
+
+  .display-2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  .display-2-intro {
+    font-size: 2.4rem;
+  }
+
+  .display-2-description {
+    font-size: 0.95rem;
+    padding: 0 0.5rem;
+    text-align: justify;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .footer-column {
+    min-width: 100%;
+  }
+
+  .footer-column h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-column ul li a {
+    font-size: 0.95rem;
+  }
+
+  .newsletter textarea,
+  .newsletter input[type="email"],
+  .newsletter button {
+    font-size: 1rem;
+  }
+
+  .newsletter label {
+    font-size: 0.85rem;
+  }
+
+  .social-icons a {
+    font-size: 1.2rem;
+    margin-right: 8px;
+  }
+
+  form label {
+    display: block;
+    margin-bottom: 0.8rem;
+  }
+
+  .contact-info p {
+    font-size: 0.95rem;
+  }
+
+}
