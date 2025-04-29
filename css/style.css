@@ -34,7 +34,7 @@
     width: 100%;
   }
   
-  /* aca es el background de */
+
   header {
     background-color: white;
     padding: 0.5rem 0;
@@ -91,8 +91,10 @@
   }
   
   .display-2-description {
-    font-size: 1.4rem;
+    font-size: 12px;
     display: inline-block;
+    font-weight: 300;
+    font-family: Montserrat, sans-serif;
   }
   
   .download_title {
