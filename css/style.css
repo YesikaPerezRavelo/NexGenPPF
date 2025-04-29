@@ -76,10 +76,11 @@
   }
   
   #intro-section {
-    background-image: url(../images/espalda.JPG);
+    background-image: url(../images/colors.gif);
     background-position: center;
+    background-repeat: no-repeat;
     border: 20rem;
-    background-size: cover;
+    background-size: 125%;
     padding: 7rem 0 7rem 0;
   }
   
@@ -91,9 +92,9 @@
   }
   
   .display-2-description {
-    font-size: 12px;
+    font-size: 10px;
     display: inline-block;
-    font-weight: 300;
+    font-weight: 100;
     font-family: Montserrat, sans-serif;
   }
   
@@ -114,48 +115,89 @@
   
   h2 {
     color: white;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
   
-  /* Footer */
   .footer {
-    background-color: white;
-    padding-top: 1rem;
+    background-color: none;
+    padding: 40px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333;
   }
   
-  .footer-sm {
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1300px;
+    margin: auto;
+  }
+  
+  .footer-column {
+    flex: 1 1 200px;
+    min-width: 200px;
+  }
+  
+  .footer-column h4 {
+    color: black;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin: 6px 0;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-column ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-info img {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    font-size: 18px;
+    color: black;
+  }
+  
+  .newsletter input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+  }
+  
+  .newsletter button {
     background-color: black;
     color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    width: 100%;
   }
   
-  .footer-sm a {
-    color: rgb(245, 238, 238);
+  .newsletter button:hover {
+    background-color: #b00000;
   }
   
-  .footer-sm a i {
-    font-size: 1rem;
-    margin-left: 1rem;
-  }
-  
-  .footer-sm__icons {
-    text-align: right;
-    padding: 0.25rem 0;
-  }
-  
-  .footer-botton {
-    pad: 0.25rem 0;
-  }
-  
-  .footer-bottom__copyright {
-    text-align: end;
-    color: grey;
-    font-weight: 300;
-    padding: 0.25rem 0;
-  }
-  
-  .footer-botton_copyright a {
-    color: grey;
-    text-decoration: none;
+  .newsletter label {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
   }
   
   .help_section {
@@ -356,3 +398,17 @@
 .contact-section button:hover {
   background-color: #c92234;
 }
+
+.justified-text {
+  display: block;
+  text-align: justify;
+}
+
+.newsletter textarea {
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  resize: vertical;
+  font-family: 'Montserrat', sans-serif;
+}
+
